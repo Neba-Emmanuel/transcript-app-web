@@ -275,6 +275,12 @@ button:focus {
 	width: 40%;
 }
 
+.mu-header-featured-img img{
+	border-radius: 70px;
+	width: 400px;
+	height: 800px;
+}
+
 .mu-header-featured-content {
 	display: inline;
 	float: right;
@@ -924,6 +930,7 @@ button:focus {
 	flex-direction: column;
 	background: #007AFF;
 	color: #fff;
+	border-radius: 0 0 10px 10px;
 }
 
 .mu-contact-right-single .mu-icon {
@@ -951,11 +958,17 @@ button:focus {
 }
 .mu-single-team {
 	top: 20px;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	border-radius: 10px;
 }
 
 .mu-team-photo {
 	margin-top: 50px;
-	
+}
+
+.mu-team-photo img{
+	border-radius: 10px 10px 0 0;
 }
 
 
